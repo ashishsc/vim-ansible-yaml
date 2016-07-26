@@ -13,7 +13,7 @@ endif
 
 let b:did_indent = 1
 
-setlocal sw=2 ts=2 sts=2 et
+setlocal sw=4 ts=4 sts=4 et
 setlocal indentexpr=GetAnsibleIndent(v:lnum)
 setlocal indentkeys=!^Fo,O,0#,<:>,-
 setlocal nosmartindent
